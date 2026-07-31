@@ -1,0 +1,36 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "wallpaper-presets",
+  "title": "Wallpaper Presets",
+  "description": "Previsualiza y cambia el wallpaper del escritorio con un atajo",
+  "icon": "icon.png",
+  "author": "snakefirts",
+  "categories": ["Productivity"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "set-wallpaper",
+      "title": "Set Wallpaper",
+      "subtitle": "Wallpaper Presets",
+      "description": "Elige un wallpaper viendo su miniatura",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.79.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.8",
+    "@types/node": "20.8.10",
+    "@types/react": "18.3.3",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint"
+  }
+}
